@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CodeLab</string>
+    <string name="title">Welcome to CodeLab</string>
+    <string name="instruction1">Want you make an android apps ?</string>
+    <string name="instruction2" tools:ignore="StringEscaping"> No program needed, so Let's start dig-in !</string>
+    <string name="button1">See tutrial</string>
+    <string name="button2">Start Engineer</string>
+    <string name="button3">Tools</string>
+</resources>
