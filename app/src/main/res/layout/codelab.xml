@@ -12,6 +12,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="162dp"
         android:text="@string/title"
+        android:textSize="40sp"
         android:textColor="#0015ff"/>
 
     <TextView
@@ -22,6 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="284dp"
         android:text="@string/instruction1"
+        android:textSize="22sp"
         android:textColor="#ff0011"/>
     <TextView
         android:id="@+id/hint2"
@@ -29,36 +31,38 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="@string/instruction2"
-        android:textColor="#fbff00" />
+        android:textSize="18sp"
+        android:textColor="#ff8c00"/>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/GUI1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="278dp"
-        android:text="@string/button1"
-        android:textColor="#11ff00" />
-
+        android:onClick="Build_a"
+        android:text="@string/GUI1"
+        android:textColor="#11ff00"/>
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/GUI2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="81dp"
-        android:text="@string/button2"
-        android:textColor="#11ff00" />
-
+        android:layout_marginBottom="95dp"
+        android:onClick="ThisAppIsNotDoneIt"
+        android:text="@string/GUI2"
+        android:textColor="#11ff00"/>
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/GUI3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="175dp"
-        android:text="@string/button3"
+        android:layout_marginBottom="191dp"
+        android:onClick="ThisAppIsNotDoneIt"
+        android:text="@string/GUI3"
         android:textColor="#11ff00"/>
 
 </RelativeLayout>
